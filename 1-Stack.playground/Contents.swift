@@ -8,6 +8,18 @@
 
 import Foundation
 
+
+// MARK: - STACK
+
+/*
+
+ What is a stack?
+    It is literal a stack of something. For example a stack of books.
+    A stack is LIFO(Last in First out) data structure. For instance navigation controller in iOS applies stack logic.
+    You push a view controller into navigation controller and you pop it.
+    An undo logic, a browser's history and Apple Music's -Play Next- are other examples of stacks
+*/
+
 struct Stack<Element: Equatable>: Equatable {
     
     private var storage: [Element] = []
